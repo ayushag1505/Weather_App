@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh ;
+}
+
+section{
+    width: 300px;
+    height: 350px;
+    margin: 120px auto;
+    /* opacity: ; */
+    background: #ccc;
+    border: 1px solid salmon;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+form{
+    width: 80%;
+    margin: 10px auto;
+}
+input{
+    width: 100%;
+    font-size: 1.1rem;
+    background: lawngreen;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 450;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 0.7px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 100%;
+    letter-spacing: 1.2px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    background: gray;
+    color: darkblue;
+}
+button:hover{
+    transform: scale(0.98);
+    transition: 400ms;
+}
+
+main{
+    background: white;
+    width: 80%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 7px;
+    padding: 6px;
+    height: 60%;
+}
+div{
+    color: rgb(8, 57, 39);
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 300px) {
+    section{
+        width: 200px;
+    }
+    div{
+        font-size: 1.2rem;
+    }
+    #three{
+        font-size: 0.8rem;
+    }
+}
